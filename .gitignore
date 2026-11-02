@@ -1,0 +1,11 @@
+/app/bin/
+/dist/
+/.tools/
+*.fpk
+*.exe
+*.test
+.DS_Store
+service.log
+settings.json
+operations.jsonl
+access.sha256
