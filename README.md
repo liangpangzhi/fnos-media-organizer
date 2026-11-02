@@ -2,8 +2,8 @@
 
 **飞牛影视整理器**：使用飞牛影视已有识别结果，检查文件命名和目录规范，预览变化后直接移动、重命名影视文件。
 
-[![Build](https://github.com/laincarl/fnos-media-organizer/actions/workflows/build.yml/badge.svg)](https://github.com/laincarl/fnos-media-organizer/actions/workflows/build.yml)
-[![Release](https://img.shields.io/github/v/release/laincarl/fnos-media-organizer)](https://github.com/laincarl/fnos-media-organizer/releases/latest)
+[![Build](https://github.com/liangpangzhi/fnos-media-organizer/actions/workflows/build.yml/badge.svg)](https://github.com/liangpangzhi/fnos-media-organizer/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/liangpangzhi/fnos-media-organizer)](https://github.com/liangpangzhi/fnos-media-organizer/releases/latest)
 
 适用于 **fnOS x86 / amd64**，以 Go 编写，无 Docker、Node.js 或 Python 运行依赖。此项目为独立第三方应用。
 
@@ -20,7 +20,7 @@
 
 ## 安装与使用
 
-1. 从 [最新 Release](https://github.com/laincarl/fnos-media-organizer/releases/latest) 下载 `fnos-media-organizer_<版本>_x86.fpk`。
+1. 从 [最新 Release](https://github.com/liangpangzhi/fnos-media-organizer/releases/latest) 下载 `fnos-media-organizer_<版本>_x86.fpk`。
 2. 在 fnOS 应用中心选择“手动安装”，上传安装包。升级时直接覆盖安装。
 3. 从 NAS 应用入口打开“飞牛影视整理器”，使用 NAS 管理员账号授权连接影视。
 4. 选择媒体库，点击“读取识别结果”。**扫描和基于识别路径的规范检查无需目录授权。**
@@ -98,6 +98,6 @@ git push origin main v0.3.22
 
 ## 问题反馈
 
-请在 [Issues](https://github.com/laincarl/fnos-media-organizer/issues) 提供 fnOS / 影视版本、问题步骤和脱敏错误信息。不要提交账号密码、OAuth 授权码或影视 Token。路径含个人信息时请替换为示例路径。
+请在 [Issues](https://github.com/liangpangzhi/fnos-media-organizer/issues) 提供 fnOS / 影视版本、问题步骤和脱敏错误信息。不要提交账号密码、OAuth 授权码或影视 Token。路径含个人信息时请替换为示例路径。
 
 [飞牛应用开发文档](https://developer.fnnas.com/docs/guide/) · [fnpack 文档](https://developer.fnnas.com/docs/cli/fnpack/)
